@@ -89,8 +89,8 @@ def face_swap(src_img, dst_img):
     return output
 
 if __name__ == '__main__':
-    src_img = cv2.imread('img37.png')
-    dst_img = cv2.imread('img36.png')
+    src_img = cv2.imread('img37.jpg')
+    dst_img = cv2.imread('img36.jpg')
     if src_img is None or dst_img is None:
         print("Ошибка загрузки изображений.")
         exit()
